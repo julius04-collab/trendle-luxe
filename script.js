@@ -97,15 +97,33 @@ document.addEventListener('DOMContentLoaded', () => {
     revealTargets.forEach(el => el.classList.add('is-visible'));
   }
 
-  /* ---------- Contact form (front-end only — wire up to your backend / form service) ---------- */
+  /* ---------- Contact form ---------- */
+  /* No backend yet — submitting opens a pre-filled email to the studio inbox.
+     For a no-popup, "lands in an inbox silently" experience instead, sign up
+     free at https://formspree.io, then swap this for a fetch() POST to your
+     Formspree endpoint. */
   const form = document.getElementById('contactForm');
   const status = document.getElementById('formStatus');
+  const LEAD_EMAIL = 'trendingneedle@gmail.com';
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    // NOTE: This form does not send anywhere yet. Connect it to an email
-    // service (e.g. Formspree, EmailJS) or your own backend endpoint.
-    status.textContent = 'Thanks — this form is a front-end demo. Connect it to your email service to start receiving real messages.';
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const interest = document.getElementById('interest').value;
+    const message = document.getElementById('message').value.trim();
+
+    const subject = `New inquiry from ${name} — ${interest}`;
+    const body =
+      `Name: ${name}\n` +
+      `Email: ${email}\n` +
+      `Interested in: ${interest}\n\n` +
+      `Message:\n${message}`;
+
+    const mailtoLink = `mailto:${LEAD_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+
+    status.textContent = 'Opening your email app to send this to Trendle Luxe — just hit send there.';
     form.reset();
   });
 
