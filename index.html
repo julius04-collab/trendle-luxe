@@ -1,387 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trendle Luxe — Confidently Luxe, Comfortably You</title>
-  <meta name="description"
-    content="Trendle Luxe is a unisex luxury fashion house crafting ready-to-wear, bespoke, and made-to-order pieces for modern kings and queens.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trendle Luxe — Confidently Luxe, Comfortably You</title>
+<meta name="description" content="Trendle Luxe is a unisex luxury fashion house crafting ready-to-wear, bespoke, and made-to-order pieces for modern kings and queens.">
 
+<!-- Link preview (WhatsApp, Instagram, Facebook, etc.) -->
+<meta property="og:title" content="Trendle Luxe — Confidently Luxe, Comfortably You">
+<meta property="og:description" content="Unisex luxury fashion house crafting ready-to-wear, bespoke, and made-to-order pieces for modern kings and queens.">
+<meta property="og:image" content="assets/images/og-image.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trendle Luxe — Confidently Luxe, Comfortably You">
+<meta name="twitter:description" content="Unisex luxury fashion house crafting ready-to-wear, bespoke, and made-to-order pieces for modern kings and queens.">
+<meta name="twitter:image" content="assets/images/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
 
-  <!-- ===== NAV ===== -->
-  <header class="nav" id="nav">
-    <div class="nav__inner">
-      <a href="#top" class="nav__brand">
-        <img src="assets/images/logo-mark.jpg" alt="Trendle Luxe crest" class="nav__crest">
-        <span>Trendle&nbsp;Luxe</span>
-      </a>
-      <nav class="nav__links" id="navLinks">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#training">Training</a>
-        <a href="#work">Our Work</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#" class="nav__cta" id="inquiryBtnNav">Make an Inquiry Today</a>
-      </nav>
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="top">
-    <div class="hero__bg" style="background-image:url('assets/images/work-2.jpg');"></div>
-    <div class="hero__overlay"></div>
-    <svg class="hero__ribbon" viewBox="0 0 600 600" aria-hidden="true">
-      <path d="M-50,120 C120,40 180,220 340,150 C480,90 520,260 650,210 L650,600 L-50,600 Z" fill="url(#ribbonGrad)" />
-      <defs>
-        <linearGradient id="ribbonGrad" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#E0B563" />
-          <stop offset="100%" stop-color="#9c7224" />
-        </linearGradient>
-      </defs>
-    </svg>
-
-    <div class="hero__content">
-      <p class="eyebrow">Trendle Luxe — Unisex Ready-to-Wear &amp; Bespoke</p>
-      <h1 class="hero__title">Luxury that<br>wears no gender.</h1>
-      <p class="hero__sub">Confidently Luxe, Comfortably You.</p>
-      <div class="hero__actions">
-        <a href="#work" class="btn btn--gold">View Our Work</a>
-        <a href="#" class="btn btn--ghost" id="inquiryBtnHero">Make an Inquiry Today</a>
-      </div>
-    </div>
-
-    <a href="#marquee" class="hero__scroll" aria-label="Scroll down">
-      <span></span>
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <img src="assets/images/logo-mark.jpg" alt="Trendle Luxe crest" class="nav__crest">
+      <span>Trendle&nbsp;Luxe</span>
     </a>
-  </section>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#training">Training</a>
+      <a href="#work">Our Work</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#" class="nav__cta" id="inquiryBtnNav">Make an Inquiry Today</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
 
-  <!-- ===== MARQUEE ===== -->
-  <div class="marquee" id="marquee">
-    <div class="marquee__track">
-      <span>Bespoke Design</span><span class="dot">·</span>
-      <span>Ready-to-Wear</span><span class="dot">·</span>
-      <span>Made-to-Order</span><span class="dot">·</span>
-      <span>Unisex Fashion</span><span class="dot">·</span>
-      <span>Confidently Luxe</span><span class="dot">·</span>
-      <span>Bespoke Design</span><span class="dot">·</span>
-      <span>Ready-to-Wear</span><span class="dot">·</span>
-      <span>Made-to-Order</span><span class="dot">·</span>
-      <span>Unisex Fashion</span><span class="dot">·</span>
-      <span>Confidently Luxe</span><span class="dot">·</span>
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__bg" style="background-image:url('assets/images/work-2.jpg');"></div>
+  <div class="hero__overlay"></div>
+  <svg class="hero__ribbon" viewBox="0 0 600 600" aria-hidden="true">
+    <path d="M-50,120 C120,40 180,220 340,150 C480,90 520,260 650,210 L650,600 L-50,600 Z" fill="url(#ribbonGrad)"/>
+    <defs>
+      <linearGradient id="ribbonGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#E0B563"/>
+        <stop offset="100%" stop-color="#9c7224"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <div class="hero__content">
+    <p class="eyebrow">Trendle Luxe — Unisex Ready-to-Wear &amp; Bespoke</p>
+    <h1 class="hero__title">Luxury that<br>wears no gender.</h1>
+    <p class="hero__sub">Confidently Luxe, Comfortably You.</p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--gold">View Our Work</a>
+      <a href="#" class="btn btn--ghost" id="inquiryBtnHero">Make an Inquiry Today</a>
     </div>
   </div>
 
-  <!-- ===== ABOUT ===== -->
-  <section class="about" id="about">
-    <div class="about__media">
-      <img src="assets/images/work-1.jpg" alt="Hand-finished printed jacket by Trendle Luxe" loading="lazy">
-      <div class="about__media-frame"></div>
+  <a href="#marquee" class="hero__scroll" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee" id="marquee">
+  <div class="marquee__track">
+    <span>Bespoke Design</span><span class="dot">·</span>
+    <span>Ready-to-Wear</span><span class="dot">·</span>
+    <span>Made-to-Order</span><span class="dot">·</span>
+    <span>Unisex Fashion</span><span class="dot">·</span>
+    <span>Confidently Luxe</span><span class="dot">·</span>
+    <span>Bespoke Design</span><span class="dot">·</span>
+    <span>Ready-to-Wear</span><span class="dot">·</span>
+    <span>Made-to-Order</span><span class="dot">·</span>
+    <span>Unisex Fashion</span><span class="dot">·</span>
+    <span>Confidently Luxe</span><span class="dot">·</span>
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="about__media">
+    <img src="assets/images/work-1.jpg" alt="Hand-finished printed jacket by Trendle Luxe" loading="lazy">
+    <div class="about__media-frame"></div>
+  </div>
+  <div class="about__text">
+    <p class="eyebrow eyebrow--dark">The House</p>
+    <h2>Unveiling the essence of luxury.</h2>
+    <p class="lede">Trendle Luxe is a timeless fashion house built for modern kings and queens — and everyone who refuses to pick a side of the wardrobe. We celebrate individuality through ready-to-wear collections, bespoke designs, and made-to-order pieces, each one cut to fit a person, not a category.</p>
+    <p>Every garment starts on the same cutting table, whether it's headed for a rack or a single client's fitting. The fabric does the talking — bold prints, considered tailoring, and a fit that holds up long after the first wear.</p>
+    <div class="about__stats">
+      <div><strong>Unisex</strong><span>by design</span></div>
+      <div><strong>Bespoke</strong><span>&amp; made-to-order</span></div>
+      <div><strong>Hand</strong><span>finished detail</span></div>
     </div>
-    <div class="about__text">
-      <p class="eyebrow eyebrow--dark">The House</p>
-      <h2>Unveiling the essence of luxury.</h2>
-      <p class="lede">Trendle Luxe is a timeless fashion house built for modern kings and queens — and everyone who
-        refuses to pick a side of the wardrobe. We celebrate individuality through ready-to-wear collections, bespoke
-        designs, and made-to-order pieces, each one cut to fit a person, not a category.</p>
-      <p>Every garment starts on the same cutting table, whether it's headed for a rack or a single client's fitting.
-        The fabric does the talking — bold prints, considered tailoring, and a fit that holds up long after the first
-        wear.</p>
-      <div class="about__stats">
-        <div><strong>Unisex</strong><span>by design</span></div>
-        <div><strong>Bespoke</strong><span>&amp; made-to-order</span></div>
-        <div><strong>Hand</strong><span>finished detail</span></div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== SERVICES ===== -->
-  <section class="services" id="services">
-    <p class="eyebrow eyebrow--center">What We Offer</p>
-    <h2 class="section-title">Three ways to wear the house.</h2>
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <p class="eyebrow eyebrow--center">What We Offer</p>
+  <h2 class="section-title">Three ways to wear the house.</h2>
 
-    <div class="services__grid">
-      <article class="service-card">
-        <span class="service-card__mark">RTW</span>
-        <h3>Ready-to-Wear</h3>
-        <p>Step into pieces already cut for confidence — vibrant, considered, and ready the moment you are.</p>
-      </article>
-      <article class="service-card service-card--gold">
-        <span class="service-card__mark">B</span>
-        <h3>Bespoke Design</h3>
-        <p>One-on-one fittings and a piece sketched around you — your fabric, your silhouette, your story.</p>
-      </article>
-      <article class="service-card">
-        <span class="service-card__mark">MTO</span>
-        <h3>Made-to-Order</h3>
-        <p>Tell us the occasion. We tailor the dress — or the look — to match it, stitch for stitch.</p>
-      </article>
-    </div>
-  </section>
+  <div class="services__grid">
+    <article class="service-card">
+      <span class="service-card__mark">RTW</span>
+      <h3>Ready-to-Wear</h3>
+      <p>Step into pieces already cut for confidence — vibrant, considered, and ready the moment you are.</p>
+    </article>
+    <article class="service-card service-card--gold">
+      <span class="service-card__mark">B</span>
+      <h3>Bespoke Design</h3>
+      <p>One-on-one fittings and a piece sketched around you — your fabric, your silhouette, your story.</p>
+    </article>
+    <article class="service-card">
+      <span class="service-card__mark">MTO</span>
+      <h3>Made-to-Order</h3>
+      <p>Tell us the occasion. We tailor the dress — or the look — to match it, stitch for stitch.</p>
+    </article>
+  </div>
+</section>
 
-  <!-- ===== TRAINING ===== -->
-  <section class="training" id="training">
-    <div class="training__intro">
-      <p class="eyebrow eyebrow--center">Learn The Craft</p>
-      <h2 class="section-title">Train with Trendle Luxe.</h2>
-      <p class="training__lede">Beyond the rack and the fitting room, Trendle Luxe runs hands-on training for anyone who
-        wants to learn pattern drafting, cutting, and construction from the ground up — taught the same way every piece
-        in this house is made.</p>
-    </div>
-
-    <div class="training__videos">
-      <div class="training__video-card">
-        <video controls preload="metadata" poster="assets/images/instructor-poster.jpg">
-          <source src="assets/videos/instructor-intro.mp4" type="video/mp4">
-          Your browser doesn't support embedded video.
-        </video>
-        <p class="training__video-caption">Meet your instructor — a quick word on how the training works.</p>
-      </div>
-      <div class="training__video-card">
-        <video controls preload="metadata" poster="assets/images/pattern-poster.jpg">
-          <source src="assets/videos/pattern-drafting.mp4" type="video/mp4">
-          Your browser doesn't support embedded video.
-        </video>
-        <p class="training__video-caption">Inside a session — pattern drafting from a fresh block.</p>
-      </div>
-    </div>
-
-    <div class="training__gallery">
-      <figure>
-        <img src="assets/images/gallery-team.jpg" alt="Trendle Luxe team and trainees at the cutting table"
-          loading="lazy">
-        <figcaption>Hands-on, around the cutting table — exactly how the house trains.</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/images/gallery-detail.jpg" alt="Close-up of garment construction technique" loading="lazy">
-        <figcaption>Construction detail — the kind of finish we teach you to spot and replicate.</figcaption>
-      </figure>
-    </div>
-
-    <div class="training__cta">
-      <a href="#" class="btn btn--gold" id="inquiryBtnTraining">Ask About Training</a>
-    </div>
-  </section>
-
-  <!-- ===== OUR WORK ===== -->
-  <section class="work" id="work">
-    <p class="eyebrow eyebrow--center eyebrow--on-dark">Our Work</p>
-    <h2 class="section-title section-title--light">Cut, fitted, finished.</h2>
-
-    <div class="work__grid">
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/work-1.jpg" alt="Trendle Luxe geometric print fitted jacket" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 01</span>
-          <span class="look__name">Geometric print fitted jacket, hand-tailored seams</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/work-2.jpg" alt="Trendle Luxe batik print mandarin-collar jacket" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 02</span>
-          <span class="look__name">Batik print mandarin-collar jacket, bell sleeve</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-03.jpg" alt="Trendle Luxe purple tie-dye mesh wrap top and shorts"
-            loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 03</span>
-          <span class="look__name">Tie-dye mesh wrap top, bell sleeve, matching shorts</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-04.jpg" alt="Trendle Luxe beaded caftan with metallic trim" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 04</span>
-          <span class="look__name">Beaded caftan, metallic geometric trim</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-05.jpg" alt="Trendle Luxe black and white print boubou" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 05</span>
-          <span class="look__name">Monochrome print boubou, dropped shoulder</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-06.jpg" alt="Trendle Luxe navy senator with printed lining" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 06</span>
-          <span class="look__name">Navy senator, signature printed lining</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-07.jpg" alt="Trendle Luxe blue senator with embroidered panel" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 07</span>
-          <span class="look__name">Sky-blue senator, hand-embroidered chest panel</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-08.jpg" alt="Trendle Luxe three colourways of a tailored shirt" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 08</span>
-          <span class="look__name">One silhouette, three colourways — maroon, white, grey</span>
-        </figcaption>
-      </figure>
-      <figure class="look">
-        <div class="look__frame">
-          <img src="assets/images/look-09.jpg" alt="Trendle Luxe printed fabric ready for delivery" loading="lazy">
-        </div>
-        <figcaption>
-          <span class="look__num">Look 09</span>
-          <span class="look__name">Fresh off the table, ready for delivery</span>
-        </figcaption>
-      </figure>
-    </div>
-    <p class="work__note">Nine looks and counting — this rail grows with every new fitting.</p>
-  </section>
-
-  <!-- ===== GALLERY ===== -->
-  <section class="gallery" id="gallery">
-    <p class="eyebrow eyebrow--center">Behind The Scenes</p>
-    <h2 class="section-title">Finished pieces, the process, and everything between.</h2>
-
-    <div class="gallery__grid" id="galleryGrid">
-      <button class="gallery__item gallery__item--tall" data-full="assets/images/work-1.jpg">
-        <img src="assets/images/work-1.jpg" alt="Geometric print jacket on mannequin" loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/images/work-2.jpg">
-        <img src="assets/images/work-2.jpg" alt="Batik print jacket on mannequin" loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/images/gallery-detail.jpg">
-        <img src="assets/images/gallery-detail.jpg" alt="Close-up construction detail on a grey kaftan" loading="lazy">
-      </button>
-      <button class="gallery__item gallery__item--tall" data-full="assets/images/gallery-team.jpg">
-        <img src="assets/images/gallery-team.jpg" alt="Trendle Luxe team at the cutting table" loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/images/gallery-workshop.jpg">
-        <img src="assets/images/gallery-workshop.jpg" alt="Maroon and white shirt on mannequin in the workshop"
-          loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/images/gallery-fabric-detail.jpg">
-        <img src="assets/images/gallery-fabric-detail.jpg" alt="Close-up of pinstripe fabric collar and zipper detail"
-          loading="lazy">
-      </button>
-    </div>
-  </section>
-
-  <!-- ===== LIGHTBOX ===== -->
-  <div class="lightbox" id="lightbox">
-    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
-    <img id="lightboxImg" src="" alt="">
+<!-- ===== TRAINING ===== -->
+<section class="training" id="training">
+  <div class="training__intro">
+    <p class="eyebrow eyebrow--center">Learn The Craft</p>
+    <h2 class="section-title">Train with Trendle Luxe.</h2>
+    <p class="training__lede">Beyond the rack and the fitting room, Trendle Luxe runs hands-on training for anyone who wants to learn pattern drafting, cutting, and construction from the ground up — taught the same way every piece in this house is made.</p>
   </div>
 
-  <!-- ===== CONTACT ===== -->
-  <section class="contact" id="contact">
-    <div class="contact__inner">
-      <div class="contact__intro">
-        <p class="eyebrow eyebrow--on-dark">Get In Touch</p>
-        <h2 class="section-title section-title--light">Let's fit you into something unforgettable.</h2>
-        <p class="contact__lede">Booking a bespoke fitting, asking about a ready-to-wear piece, or just want fabric
-          advice — send a note.</p>
-
-        <ul class="contact__details">
-          <li><span>Email</span><a href="mailto:trendingneedle@gmail.com">trendingneedle@gmail.com</a></li>
-          <li><span>Phone / WhatsApp</span><a href="https://wa.me/2348123064726" target="_blank"
-              rel="noopener">0812&nbsp;306&nbsp;4726</a></li>
-          <li><span>Studio</span><a href="#">Ibadan, Nigeria — by appointment</a></li>
-        </ul>
-
-        <div class="contact__social">
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="https://www.tiktok.com/@trendle_luxe" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
-          <a href="https://wa.me/2348123064726" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
-        </div>
-      </div>
-
-      <form class="contact__form" id="contactForm">
-        <div class="field">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="field">
-          <label for="interest">I'm interested in</label>
-          <select id="interest" name="interest">
-            <option>Ready-to-Wear</option>
-            <option>Bespoke Design</option>
-            <option>Made-to-Order</option>
-            <option>Something else</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
-        <button type="submit" class="btn btn--gold btn--full">Send Message</button>
-        <p class="form__status" id="formStatus" role="status"></p>
-      </form>
+  <div class="training__videos">
+    <div class="training__video-card">
+      <video controls preload="metadata" poster="assets/images/instructor-poster.jpg">
+        <source src="assets/videos/instructor-intro.mp4" type="video/mp4">
+        Your browser doesn't support embedded video.
+      </video>
+      <p class="training__video-caption">Meet your instructor — a quick word on how the training works.</p>
     </div>
-  </section>
-
-  <!-- ===== INQUIRY MODAL ===== -->
-  <div class="inquiry-modal" id="inquiryModal">
-    <div class="inquiry-modal__panel">
-      <button class="inquiry-modal__close" id="inquiryModalClose" aria-label="Close">&times;</button>
-      <p class="eyebrow eyebrow--dark">Make An Inquiry</p>
-      <h3>How would you like to reach us?</h3>
-      <p class="inquiry-modal__sub">Pick whichever's easiest — we reply on both.</p>
-      <div class="inquiry-modal__options">
-        <a href="mailto:trendingneedle@gmail.com" class="inquiry-modal__option">
-          <span class="inquiry-modal__option-label">Email</span>
-          <span class="inquiry-modal__option-value">trendingneedle@gmail.com</span>
-        </a>
-        <a href="https://wa.me/2348123064726" target="_blank" rel="noopener" class="inquiry-modal__option">
-          <span class="inquiry-modal__option-label">WhatsApp</span>
-          <span class="inquiry-modal__option-value">0812 306 4726</span>
-        </a>
-      </div>
+    <div class="training__video-card">
+      <video controls preload="metadata" poster="assets/images/pattern-poster.jpg">
+        <source src="assets/videos/pattern-drafting.mp4" type="video/mp4">
+        Your browser doesn't support embedded video.
+      </video>
+      <p class="training__video-caption">Inside a session — pattern drafting from a fresh block.</p>
     </div>
   </div>
 
-  <footer class="footer">
-    <div class="footer__inner">
-      <span>© <span id="year"></span> Trendle Luxe. Confidently Luxe, Comfortably You.</span>
-      <span class="footer__credit">Site by <a href="https://tobiloba-julius.vercel.app" target="_blank"
-          rel="noopener">DBL</a></span>
-      <a href="#top">Back to top ↑</a>
-    </div>
-  </footer>
+  <div class="training__gallery">
+    <figure>
+      <img src="assets/images/gallery-team.jpg" alt="Trendle Luxe team and trainees at the cutting table" loading="lazy">
+      <figcaption>Hands-on, around the cutting table — exactly how the house trains.</figcaption>
+    </figure>
+    <figure>
+      <img src="assets/images/gallery-detail.jpg" alt="Close-up of garment construction technique" loading="lazy">
+      <figcaption>Construction detail — the kind of finish we teach you to spot and replicate.</figcaption>
+    </figure>
+  </div>
 
-  <script src="script.js"></script>
+  <div class="training__cta">
+    <a href="#" class="btn btn--gold" id="inquiryBtnTraining">Ask About Training</a>
+  </div>
+</section>
+
+<!-- ===== OUR WORK ===== -->
+<section class="work" id="work">
+  <p class="eyebrow eyebrow--center eyebrow--on-dark">Our Work</p>
+  <h2 class="section-title section-title--light">Cut, fitted, finished.</h2>
+
+  <div class="work__grid">
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/work-1.jpg" alt="Trendle Luxe geometric print fitted jacket" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 01</span>
+        <span class="look__name">Geometric print fitted jacket, hand-tailored seams</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/work-2.jpg" alt="Trendle Luxe batik print mandarin-collar jacket" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 02</span>
+        <span class="look__name">Batik print mandarin-collar jacket, bell sleeve</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-03.jpg" alt="Trendle Luxe sky-blue tunic with contrast pocket detail" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 03</span>
+        <span class="look__name">Sky-blue tunic, contrast curved pocket</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-04.jpg" alt="Trendle Luxe beaded caftan with metallic trim" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 04</span>
+        <span class="look__name">Beaded caftan, metallic geometric trim</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-05.jpg" alt="Trendle Luxe hand-tailored Yoruba fila cap" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 05</span>
+        <span class="look__name">Hand-tailored Yoruba fila, structured crown</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-06.jpg" alt="Trendle Luxe navy senator with printed lining" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 06</span>
+        <span class="look__name">Navy senator, signature printed lining</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-07.jpg" alt="Trendle Luxe blue senator with embroidered panel" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 07</span>
+        <span class="look__name">Sky-blue senator, hand-embroidered chest panel</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-08.jpg" alt="Trendle Luxe three colourways of a tailored shirt" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 08</span>
+        <span class="look__name">One silhouette, three colourways — maroon, white, grey</span>
+      </figcaption>
+    </figure>
+    <figure class="look">
+      <div class="look__frame">
+        <img src="assets/images/look-09.jpg" alt="Trendle Luxe finished piece wrapped and ribboned for delivery" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="look__num">Look 09</span>
+        <span class="look__name">Fresh off the table, ready for delivery</span>
+      </figcaption>
+    </figure>
+  </div>
+  <p class="work__note">Nine looks and counting — this rail grows with every new fitting.</p>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="gallery" id="gallery">
+  <p class="eyebrow eyebrow--center">Behind The Scenes</p>
+  <h2 class="section-title">Finished pieces, the process, and everything between.</h2>
+
+  <div class="gallery__grid" id="galleryGrid">
+    <button class="gallery__item" data-full="assets/images/gallery-1.jpg">
+      <img src="assets/images/gallery-1.jpg" alt="Navy printed fabric fresh off the table" loading="lazy">
+    </button>
+    <button class="gallery__item" data-full="assets/images/work-2.jpg">
+      <img src="assets/images/work-2.jpg" alt="Batik print jacket on mannequin" loading="lazy">
+    </button>
+    <button class="gallery__item" data-full="assets/images/gallery-workshop.jpg">
+      <img src="assets/images/gallery-workshop.jpg" alt="Maroon and white shirt on mannequin in the workshop" loading="lazy">
+    </button>
+    <button class="gallery__item" data-full="assets/images/gallery-fabric-detail.jpg">
+      <img src="assets/images/gallery-fabric-detail.jpg" alt="Close-up of pinstripe fabric collar and zipper detail" loading="lazy">
+    </button>
+    <button class="gallery__item" data-full="assets/images/gallery-boubou.jpg">
+      <img src="assets/images/gallery-boubou.jpg" alt="Trendle Luxe black and white print boubou" loading="lazy">
+    </button>
+    <button class="gallery__item" data-full="assets/images/gallery-mesh.jpg">
+      <img src="assets/images/gallery-mesh.jpg" alt="Trendle Luxe purple tie-dye mesh wrap top and shorts" loading="lazy">
+    </button>
+  </div>
+</section>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="contact__inner">
+    <div class="contact__intro">
+      <p class="eyebrow eyebrow--on-dark">Get In Touch</p>
+      <h2 class="section-title section-title--light">Let's fit you into something unforgettable.</h2>
+      <p class="contact__lede">Booking a bespoke fitting, asking about a ready-to-wear piece, or just want fabric advice — send a note.</p>
+
+      <ul class="contact__details">
+        <li><span>Email</span><a href="mailto:trendingneedle@gmail.com">trendingneedle@gmail.com</a></li>
+        <li><span>Phone / WhatsApp</span><a href="https://wa.me/2348123064726" target="_blank" rel="noopener">0812&nbsp;306&nbsp;4726</a></li>
+        <li><span>Studio</span><a href="#">Ibadan, Nigeria — by appointment</a></li>
+      </ul>
+
+      <div class="contact__social">
+        <a href="https://instagram.com/Trendle_luxe" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://www.tiktok.com/@Trendle_luxe" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+        <a href="https://wa.me/2348123064726" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+
+    <form class="contact__form" id="contactForm">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="field">
+        <label for="interest">I'm interested in</label>
+        <select id="interest" name="interest">
+          <option>Ready-to-Wear</option>
+          <option>Bespoke Design</option>
+          <option>Made-to-Order</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn--gold btn--full">Send Message</button>
+      <p class="form__status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== INQUIRY MODAL ===== -->
+<div class="inquiry-modal" id="inquiryModal">
+  <div class="inquiry-modal__panel">
+    <button class="inquiry-modal__close" id="inquiryModalClose" aria-label="Close">&times;</button>
+    <p class="eyebrow eyebrow--dark">Make An Inquiry</p>
+    <h3>How would you like to reach us?</h3>
+    <p class="inquiry-modal__sub">Pick whichever's easiest — we reply on both.</p>
+    <div class="inquiry-modal__options">
+      <a href="mailto:trendingneedle@gmail.com" class="inquiry-modal__option">
+        <span class="inquiry-modal__option-label">Email</span>
+        <span class="inquiry-modal__option-value">trendingneedle@gmail.com</span>
+      </a>
+      <a href="https://wa.me/2348123064726" target="_blank" rel="noopener" class="inquiry-modal__option">
+        <span class="inquiry-modal__option-label">WhatsApp</span>
+        <span class="inquiry-modal__option-value">0812 306 4726</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <span>© <span id="year"></span> Trendle Luxe. Confidently Luxe, Comfortably You.</span>
+    <span class="footer__credit">Site by <a href="https://tobiloba-julius.vercel.app" target="_blank" rel="noopener">DBL</a></span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
